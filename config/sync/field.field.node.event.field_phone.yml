@@ -1,0 +1,23 @@
+uuid: a87a2b62-eb6a-4d0f-b111-6259a7f583fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone
+    - node.type.event
+  module:
+    - telephone
+id: node.event.field_phone
+field_name: field_phone
+entity_type: node
+bundle: event
+label: Phone
+description: 'Please include a contact phone number'
+required: false
+translatable: false
+default_value:
+  -
+    value: (123)4356789
+default_value_callback: ''
+settings: {  }
+field_type: telephone

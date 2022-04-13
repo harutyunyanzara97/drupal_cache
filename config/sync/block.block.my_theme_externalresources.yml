@@ -1,0 +1,25 @@
+uuid: 6106c75f-305b-43e3-a8a0-df1488cee421
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.external-resources
+  module:
+    - system
+  theme:
+    - my_theme
+id: my_theme_externalresources
+theme: my_theme
+region: header
+weight: -8
+provider: null
+plugin: 'system_menu_block:external-resources'
+settings:
+  id: 'system_menu_block:external-resources'
+  label: 'External resources'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

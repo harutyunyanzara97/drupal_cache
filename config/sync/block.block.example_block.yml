@@ -1,0 +1,30 @@
+uuid: a2f2e3f3-44ed-434d-af29-867f65146074
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_example
+    - user
+  theme:
+    - bartik
+id: example_block
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: block_example
+settings:
+  id: block_example
+  label: example_block
+  label_display: visible
+  provider: block_example
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator

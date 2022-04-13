@@ -1,0 +1,24 @@
+uuid: 5f853706-f93b-4d42-84b8-62542b23292d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recipe_navigation
+  module:
+    - views
+  theme:
+    - my_theme
+id: my_theme_views_block__recipe_navigation_block_1
+theme: my_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:recipe_navigation-block_1'
+settings:
+  id: 'views_block:recipe_navigation-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

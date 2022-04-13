@@ -1,0 +1,10 @@
+uuid: ba9f02b7-315e-40d8-8f7a-3434a658541f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.event_date
+label: 'Event date'
+targetEntityType: block_content
+cache: true

@@ -1,0 +1,10 @@
+uuid: c0aae7c6-0745-471f-bafd-6240ad6a9b1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.simple_event
+label: 'Simple event'
+targetEntityType: comment
+cache: true

@@ -1,0 +1,30 @@
+uuid: 95f8f866-b994-45db-b2a6-5c4529508188
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_example
+    - user
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_example_block
+theme: bootstrap_barrio
+region: sidebar_first
+weight: -6
+provider: null
+plugin: block_example
+settings:
+  id: block_example
+  label: example_block
+  label_display: visible
+  provider: block_example
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator

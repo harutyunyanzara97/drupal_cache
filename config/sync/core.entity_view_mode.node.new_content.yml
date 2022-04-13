@@ -1,0 +1,10 @@
+uuid: fda9d8cf-85b5-4842-902d-d210446b0d07
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.new_content
+label: 'new content'
+targetEntityType: node
+cache: true

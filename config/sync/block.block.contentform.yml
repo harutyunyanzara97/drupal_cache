@@ -1,0 +1,23 @@
+uuid: cb342590-0d67-4a99-8511-ce11c66f6328
+langcode: en
+status: true
+dependencies:
+  module:
+    - formblock
+  theme:
+    - olivero
+id: contentform
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: formblock_node
+settings:
+  id: formblock_node
+  label: 'Content form'
+  label_display: visible
+  provider: formblock
+  type: article
+  form_mode: default
+  show_help: 0
+visibility: {  }

@@ -1,0 +1,47 @@
+uuid: cb4e15a6-a5ec-4721-8f85-f3ece98301c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.new_content
+    - field.field.node.event.body
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_image
+    - field.field.node.event.field_phone
+    - field.field.node.event.field_webinar_link
+    - node.type.event
+  module:
+    - datetime
+    - link
+    - user
+id: node.event.new_content
+targetEntityType: node
+bundle: event
+mode: new_content
+content:
+  field_event_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: short
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_webinar_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_image: true
+  field_phone: true
+  links: true

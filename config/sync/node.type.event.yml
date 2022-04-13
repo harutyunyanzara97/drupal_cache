@@ -1,0 +1,17 @@
+uuid: 47723484-65e2-4401-b9f6-5c56f35312ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Event
+type: event
+description: 'Use this to add webinar events'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

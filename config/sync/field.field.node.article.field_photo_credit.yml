@@ -1,0 +1,19 @@
+uuid: 2c711799-c245-40ab-af63-cb3341b212d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo_credit
+    - node.type.article
+id: node.article.field_photo_credit
+field_name: field_photo_credit
+entity_type: node
+bundle: article
+label: 'Photo credit'
+description: 'Instructions to present to the user below this field on the editing form.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

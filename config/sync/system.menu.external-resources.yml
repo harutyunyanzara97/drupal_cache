@@ -1,0 +1,8 @@
+uuid: 07cd9cff-8f70-4204-b41f-5b1658404dcc
+langcode: en
+status: true
+dependencies: {  }
+id: external-resources
+label: 'External resources'
+description: ''
+locked: false

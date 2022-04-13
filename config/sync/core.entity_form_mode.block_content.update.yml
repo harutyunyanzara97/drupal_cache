@@ -1,0 +1,10 @@
+uuid: 80cf2322-a982-4f72-a6d1-180c1740cb46
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.update
+label: Update
+targetEntityType: block_content
+cache: true

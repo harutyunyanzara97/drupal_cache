@@ -1,0 +1,7 @@
+uuid: a4277d80-215b-49d4-a6fa-5ef1fbe5a2b1
+langcode: en
+status: true
+dependencies: {  }
+name: grid_image
+label: 'Grid image'
+effects: {  }

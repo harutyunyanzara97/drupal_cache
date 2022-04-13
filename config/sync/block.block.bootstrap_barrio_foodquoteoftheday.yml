@@ -1,0 +1,25 @@
+uuid: f73e8e1c-4be2-416a-85a2-74e07c9678e1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f29e9b27-9065-408a-a90f-918c3c3b42cd'
+  module:
+    - block_content
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_foodquoteoftheday
+theme: bootstrap_barrio
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'block_content:f29e9b27-9065-408a-a90f-918c3c3b42cd'
+settings:
+  id: 'block_content:f29e9b27-9065-408a-a90f-918c3c3b42cd'
+  label: 'Food quote of the day'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

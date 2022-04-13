@@ -1,0 +1,23 @@
+uuid: 7594e192-c89e-4d20-874e-f526ef2bb21c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recipes
+  module:
+    - views
+  theme:
+    - my_theme
+id: my_theme_exposedformrecipespage_1
+theme: my_theme
+region: header
+weight: -9
+provider: null
+plugin: 'views_exposed_filter_block:recipes-page_1'
+settings:
+  id: 'views_exposed_filter_block:recipes-page_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+visibility: {  }

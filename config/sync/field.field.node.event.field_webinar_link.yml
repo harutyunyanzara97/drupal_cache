@@ -1,0 +1,23 @@
+uuid: 4c0652e7-a5b5-4896-b870-62a4acb64141
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_webinar_link
+    - node.type.event
+  module:
+    - link
+id: node.event.field_webinar_link
+field_name: field_webinar_link
+entity_type: node
+bundle: event
+label: 'Webinar link'
+description: 'Instructions to present to the user below this field on the editing form.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

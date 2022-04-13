@@ -1,0 +1,28 @@
+uuid: c1fa8f2a-ef5b-4627-a024-13876c201593
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_example
+    - user
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_update_cache_block
+theme: bootstrap_barrio
+region: sidebar_first
+weight: -5
+provider: null
+plugin: tmp_update
+settings:
+  id: tmp_update
+  label: 'Get time'
+  label_display: visible
+  provider: block_example
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator
